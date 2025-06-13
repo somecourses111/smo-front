@@ -1,0 +1,19 @@
+{
+    "Menu.Home": "Home",
+    "Menu.Agency": "Agency",
+    "Menu.HostAgency": "HostAgency",
+
+    "Table.ID": "ID",
+    "Table.Name": "Name",
+    "Table.Edit": "Edit",
+    "Table.Delete": "Delete",
+    "Table.File": "File",
+    "Table.Search": "Search",
+    "Table.Action": "Action",
+
+
+
+    "HostAgency.Create": "Create Host Agency",
+    "HostAgency.Edit": "Edit Host Agency"
+
+}
