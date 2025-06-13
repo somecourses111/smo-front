@@ -4,8 +4,10 @@ const getAccessTokenFromLocalStorage = () => {
     return localStorage.getItem('access_token');
 };
 
+const apiBaseURL = process.env.REACT_APP_API_URL || "https://your-backend-url.a.run.app/api";
+
 const axiosInstance = axios.create({
-    baseURL: process.env.REACT_APP_API_URL,
+    baseURL: apiBaseURL,
     withCredentials: true,
     headers: {
         'X-Requested-With': 'XMLHttpRequest',
